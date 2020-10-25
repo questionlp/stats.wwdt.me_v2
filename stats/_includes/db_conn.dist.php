@@ -10,7 +10,7 @@
 require_once 'DB.php';
 
 // Database login, server and connection settings
-$dbType = 'mysql';
+$dbType = 'mysqli';
 $dbUsername = '';
 $dbPassword = '';
 $dbServer = '';
@@ -18,5 +18,4 @@ $dbName = '';
 $dbOptions = array('portability' => DB_PORTABILITY_ALL);
 
 // Build Database URI string
-$dbUri = $dbType . '://' . $dbUsername . ':' . $dbPassword . '@' .
-	 $dbServer . '/' . $dbName;
+$dbUri = $dbType . '://' . $dbUsername . ':' . $dbPassword . '@' . $dbServer . '/' . $dbName;
