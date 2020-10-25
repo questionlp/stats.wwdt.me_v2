@@ -1,0 +1,12 @@
+# Ignore any development files
+stats/dev.php
+
+# Ignore customized database configuration file
+s/r.php
+stats/_includes/db_conn.php
+
+# Ignore any temp or old directories
+stats/_old/
+
+# Ignore any generated image files
+stats/graphs/*.png
