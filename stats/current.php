@@ -11,6 +11,9 @@
 // Set start page start time
 $plTime = microtime(true);
 
+// Set app version
+define('APP_VERSION', '2.5.0.1');
+
 // Set if the page should display all records and minimum year
 define('DISPLAY_ALL', true);
 define('DISPLAY_MIN_YEAR', 2003);
