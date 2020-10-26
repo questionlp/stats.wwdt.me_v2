@@ -29,15 +29,15 @@ The following Apache modules need to be installed and enabled:
 - alias
 - rewrite
 
-## Pear Package Requirements
+## PEAR Package Requirements
 
-The following PHP Pear packages need to be installed using the `pear install`
+The following PHP PEAR packages need to be installed using the `pear install`
 command:
 
 - Image_Graph-0.8.0
 - Image_Canvas-0.3.5
 - MDB2-2.5.0b5
-- MDB2_Driver_mysql-1.5.0b4
+- MDB2_Driver_mysqli-1.5.0b4
 
 Both of the packages listed are alpha or beta versions and, depending on the
 version of `pear` installed on the system and how it is configured, you may
