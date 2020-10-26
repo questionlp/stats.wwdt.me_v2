@@ -12,6 +12,8 @@ if (file_exists(STATIC_FILE) && file_exists(DYNAMIC_FILE)) {
 	} else {
 		require_once(DYNAMIC_FILE);
 	}
+} else if (file_exists(DYNAMIC_FILE)) {
+	require_once(DYNAMIC_FILE);
 } else {
 	print 'Error: unable to load Wait Wait... Don\'t Tell Me! Statistics Page';
 }
