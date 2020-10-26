@@ -2,7 +2,6 @@
 # Copyright (c) 2007-2020 Linh Pham
 # wwdt.me_v2 is relased under the terms of the Apache License 2.0
 
-define('APP_VERSION', '2.5.0');
 define('STATIC_FILE', 'static.html');
 define('DYNAMIC_FILE', 'current.php');
 
