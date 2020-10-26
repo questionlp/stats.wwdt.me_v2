@@ -34,6 +34,7 @@ The following Apache modules need to be installed and enabled:
 The following PHP PEAR packages need to be installed using the `pear install`
 command:
 
+- DB-1.10.0
 - Image_Graph-0.8.0
 - Image_Canvas-0.3.5
 - MDB2-2.5.0b5
