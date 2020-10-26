@@ -77,3 +77,23 @@ value needs to point to the fully-qualified path of the appliation.
 
 This file needs to be copied or renamed to `s/r.php` and the database
 connection information needs to be filled out.
+
+## Static File Generation
+
+The application supports the ability to generate a static HTML file that can be
+served up in place of a dynamic version of the site. This was done to reduce
+load times due to the increasing load times of having everything on a single
+page.
+
+The `index.php` file detects if there is a `static.html` file and includes that
+in the output instead of including the `current.php` file, if the `static.html`
+file is newer than `current.php`.
+
+To generate the `static.html` file, run the following from the command line:
+
+```
+php current.php > static.html
+```
+
+This can be done via a cron job to refresh the `static.html` file on a
+scheduled basis.
